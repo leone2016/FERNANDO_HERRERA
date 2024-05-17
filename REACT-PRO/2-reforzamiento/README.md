@@ -28,3 +28,8 @@ Es una sección de reforzamiento en la cual la mayoría de los conceptos deberí
 //create a table markdown
 
 npx create-react-app mi-app-ts --template typescript
+
+
+## History classes
+
+https://www.youtube.com/watch?v=gEFnZAj1qEE&list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M&index=3

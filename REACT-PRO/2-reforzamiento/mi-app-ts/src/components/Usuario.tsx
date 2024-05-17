@@ -20,7 +20,7 @@ export const Usuario = (props: Props) => {
     return (
         <div className={'mt-5'}>
             <h3> Usuario: useState </h3>
-            <button onClick={login} className="btn btn-outline-primary"></button>
+            <button onClick={login} className="btn btn-outline-primary">LOGIN</button>
             {
                 (!user) ? <pre>No hay usuario</pre> : <pre> {JSON.stringify(user)}</pre>
             }

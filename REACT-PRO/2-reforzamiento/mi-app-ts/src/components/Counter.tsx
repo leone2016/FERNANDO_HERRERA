@@ -8,7 +8,7 @@ type Props = {
 export const Counter = (props: Props) => {
     const [counter, setCounter] = useState(0)
 
-    const incrementar = (numero: number = 0): void => {
+    const increment = (numero: number = 0): void => {
       setCounter(counter +numero);
     }
     return (
@@ -17,11 +17,11 @@ export const Counter = (props: Props) => {
             <span>Valor: {counter}</span>
             <br/>
             <button
-                onClick={()=>incrementar(1)}
+                onClick={()=>increment(1)}
                 className="btn btn-outline-primary"
             > +1</button>
             <button
-                onClick={()=>incrementar(2)}
+                onClick={()=>increment(2)}
                 className="btn btn-outline-primary"
             > +2</button>
             <button
