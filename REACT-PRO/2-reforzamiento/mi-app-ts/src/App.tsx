@@ -3,6 +3,7 @@ import {Counter} from "./components/Counter";
 import {Usuario} from "./components/Usuario";
 import {TimerPadre} from "./components/TimerPadre";
 import {ContadorReducer} from "./components/ContadorReducer";
+import {Formulario} from "./components/Formulario";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <TimerPadre/>
         <hr/>
         <ContadorReducer/>
+        <h2>customHooks</h2>
+        <hr/>
+        <Formulario/>
     </div>
   );
 }
